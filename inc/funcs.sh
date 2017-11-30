@@ -23,13 +23,13 @@ _cat_good() {
 
 _logn() {
 	if [ "$_xc" = "0" ]; then
-		echo -en "\033[01;34m";
+		printf "\033[01;34m";
 	else
-		echo -en "\033[01;31m";
+		printf "\033[01;31m";
 	fi
-	echo -n "[$_name]"
-	echo -en "\033[00m"
-	echo -n " $@"
+	printf "[$_name]"
+	printf "\033[00m"
+	printf "%s" " $@"
 }
 
 _log() {

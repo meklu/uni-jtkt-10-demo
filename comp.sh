@@ -1,4 +1,4 @@
 #!/bin/sh
 cd "$(dirname "$0")"
 
-yes $'c\nn' | ./run.sh
+yes "$(printf "c\nn")" | ./run.sh

@@ -29,7 +29,7 @@ while [ "$#" -gt 0 ]; do
 	while [ 1 ]; do
 		_xc="0"
 		_logn "> "
-		read
+		read REPLY
 		case "$REPLY" in
 			h|help)
 				_help
