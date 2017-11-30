@@ -6,7 +6,7 @@ for f in inc/* ; do
 done
 unset f
 
-_modules="input-jint input-cstr"
+_modules="input-jint input-cstr cksum"
 set -- $_modules
 
 _help() {
