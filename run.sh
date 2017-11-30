@@ -10,15 +10,15 @@ _modules="input-jint input-cstr"
 set -- $_modules
 
 _help() {
-	echo -e "USAGE:"
-	echo -e "\th|help\thelp"
-	echo -e "\tx\texit"
-	echo -e "\tn\tnext"
-	echo -e "\tc\tcompile"
-	echo -e "\trb\trun bad"
-	echo -e "\trg\trun good"
-	echo -e "\tcb\tcat bad"
-	echo -e "\tcg\tcat good"
+	printf "USAGE:\n"
+	printf "\th|help\thelp\n"
+	printf "\tx\texit\n"
+	printf "\tn\tnext\n"
+	printf "\tc\tcompile\n"
+	printf "\trb\trun bad\n"
+	printf "\trg\trun good\n"
+	printf "\tcb\tcat bad\n"
+	printf "\tcg\tcat good\n"
 }
 
 echo "Type h or help to get help"

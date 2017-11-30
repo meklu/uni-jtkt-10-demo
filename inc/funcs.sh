@@ -1,7 +1,7 @@
 #!/bin/sh
 
 _comp() {
-	echo "[$_name] Compiling case..."
+	_log "Compiling case..."
 	_comp_"$_type"
 }
 
